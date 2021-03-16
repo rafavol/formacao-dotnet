@@ -1,0 +1,2 @@
+D:\Git Hub\Formacao_DotNet\ByteBanck\1-ByteBanck\obj\Debug\ByteBank.csprojAssemblyReference.cache
+D:\Git Hub\Formacao_DotNet\ByteBanck\1-ByteBanck\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
