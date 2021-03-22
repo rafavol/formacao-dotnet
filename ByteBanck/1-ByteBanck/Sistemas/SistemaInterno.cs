@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBanck.Sistemas
+namespace ByteBank.Sistemas
 {
     public class SistemaInterno
     {
-        public bool Logar(Funcionario funcionario, string senha)
+        public bool Logar(IAutenticavel funcionario, string senha)
         {
             bool usuarioAutenticado = funcionario.Autenticar(senha);
             if (usuarioAutenticado)
