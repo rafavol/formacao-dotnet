@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBanck.Funcionarios
+namespace ByteBank.Funcionarios
 {
     public class Auxiliar : Funcionario
     {

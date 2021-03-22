@@ -1,4 +1,4 @@
-﻿using ByteBanck.Sistemas;
+﻿using ByteBank.Sistemas;
 using ByteBank.Funcionarios;
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBanck.Funcionarios
+namespace ByteBank.Funcionarios
 {
-    public class GerenteDeConta : Funcionario, Autenticavel
+    public class GerenteDeConta : FuncionarioAutenticavel
     {
         public GerenteDeConta(double salario, string cpf) : base(salario, cpf)
         {
@@ -16,12 +16,12 @@ namespace ByteBanck.Funcionarios
         }
         public override void AumentarSalario()
         {
-            throw new NotImplementedException();
+            Salario *= 1.15;
         }
 
         public override double GetBonificacao()
         {
-            throw new NotImplementedException();
+            return Salario * 0.75;
         }
     }
 }
