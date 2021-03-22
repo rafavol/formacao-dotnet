@@ -1,4 +1,5 @@
 ﻿using ByteBank.Funcionarios;
+using ByteBank.Funcionarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace ByteBank
         static void Main(string[] args)
         {
 
-            Funcionario carlos = new Funcionario();
+            Diretor carlos = new Diretor(3500, "123.456.789-11");
 
         }
     }

@@ -3,6 +3,8 @@
     public class ContaCorrente
     {
         public static int TotalCreatedAccount { get; private set; }
+
+        public double TaxaOperacao { get; private set; }
         public Cliente Titular { get; set; }
         public int Agencia { get; set; }
         public int Numero { get; set; }
@@ -29,6 +31,7 @@
             Agencia = agencia;
             Numero = numero;
             TotalCreatedAccount++;
+            TaxaOperacao = 30 / TotalCreatedAccount;
         }
 
         public bool Sacar(double valor)
